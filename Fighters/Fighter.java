@@ -56,23 +56,11 @@ public class Fighter {
     public void implementStrategy(){
     System.out.println(run);
     System.out.println(skid);
-    try{
+    if(kick!=null)
         System.out.println(kick);
-    }
-    catch(Exception e){
-        System.out.println("No kick");
-    }
-    try{
+    if(punch!=null)
         System.out.println(punch);
-    }
-    catch(Exception e){
-        System.out.println("No punch");
-    }
-    try{
+    if(roll!=null)
         System.out.println(roll);
-    }
-    catch(Exception e){
-        System.out.println("No roll");
-    }
     }
 }
