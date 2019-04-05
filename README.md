@@ -3,11 +3,8 @@ This repository contains the .mdj files (class diagrams) and .java (functions) o
 To open or edit class diagram open ***.mdj*** file in STARUML 
 To execute code in eclipse copy and paste all .java files in src folder of your java project 
 
-1) Fighters and Payment are exempler implementation for ***Strategy design pattern***.
-2) Bridge is ***Bridge design pattern*** implementation of Workshop-Vehicle.
+1) Fighters and Payment in stategy folder are exempler implementation for ***Strategy design pattern***.
+2) Shape and Vehicle in Bridge folder are example of ***Bridge design pattern*** implementation
 3) Home Theatre is a ***Facade design pattern*** implementation.
-4) Factory is ***Abstract Factory Design*** of two level abstraction for an imaginary company with 12 products of 6 categories.
-5) Adapter is ***Adapter Design Pattern*** of drawing 3 different shapes(This example is ***class adapter pattern***).
-    • Object Adapter pattern— The adpter relies on one object (the adapting object) containing another (the adapted object).
-    • Class Adapter pattern—Another way to implement the Adapter pattern is with multiple inheritance. In this case, it is 
-    called a Class Adapter pattern.
+4) Abstract Factory folder is ***Abstract Factory Design*** of two level abstraction for an imaginary company with 12 products of 6 categories(folder Factory) and implentation of display and print drivers in Drivers folder .
+5) Adapter folder contain 2 implentation of ***Abstract Design Patter*** one with MediaPlayer implenting mediaAdapter and another contins implentation for Shape
